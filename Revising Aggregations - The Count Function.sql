@@ -1,0 +1,1 @@
+select Count(*) from city where population>100000

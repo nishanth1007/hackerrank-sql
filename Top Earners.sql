@@ -1,0 +1,1 @@
+select top 1 (months * salary) as earnings, count (*) from employee group by months*salary order by months*salary desc

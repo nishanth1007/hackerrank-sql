@@ -1,0 +1,1 @@
+select * from CITy where COUNTRYCODE='JPN'
