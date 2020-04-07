@@ -1,0 +1,1 @@
+select country.continent, CAST(ROUND(AVG(city.population),2) as INT) as pop from city inner join country on city.countrycode=country.code group by country.continent 
